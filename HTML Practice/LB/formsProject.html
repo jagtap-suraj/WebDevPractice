@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Event Registration</h1>
+    <fieldset>
+        <label for="name">Name: </label>
+        <br>
+        <input type="text" id="name">
+        <br>
+
+        <label for="email">Email: </label>
+        <br>
+        <input type="email" id="email">
+        <br>
+
+        <label for="phone">Phone: </label>
+        <br>
+        <input type="tel" id="phone">
+        <br>
+
+        <br>
+        <label for="occupation">Occupation: </label>
+        <br>
+        <select name="occupation" id="occupation">
+            <option value="student">Student</option>
+            <option value="employee">Employee</option>
+            <option value="self-employed">Self-Employed</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Topics: </legend>
+            <input type="checkbox" id="topic1" name="topic1" value="topic1">
+            <label for="topic1">HTML</label>
+            <br>
+            <input type="checkbox" id="topic2" name="topic2" value="topic2">
+            <label for="topic2">CSS</label>
+            <br>
+            <input type="checkbox" id="topic3" name="topic3" value="topic3">
+            <label for="topic3">JavaScript</label>
+            <br>
+        </fieldset>
+
+        <br>
+        <label for="resume">Resume: </label>
+        <br>
+        <input type="file" id="resume">
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Availability</legend>
+            <input type="radio" name="availability" id="availability1">
+            <label for="availability1">Full Time</label>
+            <br>
+            <input type="radio" name="availability" id="availability2">
+            <label for="availability2">Part Time</label>
+            <br>
+        </fieldset>
+
+        <br>
+        <label for="comments">Comments: </label>
+        <br>
+        <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Comments"></textarea>
+        <input type="submit" value="Register">
+    </fieldset>
+</body>
+</html>
